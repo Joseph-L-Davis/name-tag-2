@@ -19,8 +19,8 @@ button1.addEventListener('click', () => {
   input1.value = "";
 });
 
-button1.addEventListener('keypress', (e) => {
-  if (e.key === 'Enter') {
+input1.addEventListener('keyup', (e) => {
+  if (e.code === 'Enter') {
   firstName.textContent = input1.value;
   input1.value = "";
   }
@@ -31,7 +31,21 @@ button2.addEventListener('click', () => {
   input2.value = "";
 });
 
+input2.addEventListener('keyup', (e) => {
+  if (e.code === 'Enter') {
+  secondName.textContent = input2.value;
+  input2.value = "";
+  }
+});
+
 button3.addEventListener('click', () => {
   thirdName.textContent = input3.value;
   input3.value = "";
+});
+
+input3.addEventListener('keyup', (e) => {
+  if (e.code === 'Enter') {
+  thirdName.textContent = input3.value;
+  input3.value = "";
+  }
 });
