@@ -68,12 +68,31 @@ article {
 
 }
 
+.name-btn-1:hover {
+  cursor: pointer;
+}
+
+.name-btn-2:hover {
+  cursor: pointer;
+}
+
+.name-btn-3:hover {
+  cursor: pointer;
+}
+
 .name-btn-1 {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 35px;
   width: 95px;
+  background: #3E5151;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #DECBA4, #3E5151);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .name-btn-2 {
@@ -82,6 +101,13 @@ article {
   justify-content: center;
   height: 35px;
   width: 95px;
+  background: #3E5151;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #DECBA4, #3E5151);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .name-btn-3 {
@@ -90,6 +116,13 @@ article {
   justify-content: center;
   height: 35px;
   width: 95px;
+  background: #3E5151;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #DECBA4, #3E5151);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .first-input {
@@ -98,6 +131,13 @@ article {
   justify-content: center;
   height: 35px;
   width: 200px;
+  background: #3E5151;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #DECBA4, #3E5151);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .second-input {
@@ -106,6 +146,13 @@ article {
   justify-content: center;
   height: 35px;
   width: 200px;
+  background: #3E5151;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #DECBA4, #3E5151);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .third-input {
@@ -114,6 +161,13 @@ article {
   justify-content: center;
   height: 35px;
   width: 200px;
+  background: #3E5151;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #DECBA4, #3E5151);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 section {

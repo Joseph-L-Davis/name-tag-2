@@ -19,6 +19,13 @@ button1.addEventListener('click', () => {
   input1.value = "";
 });
 
+button1.addEventListener('keypress', (e) => {
+  if (e.key === 'Enter') {
+  firstName.textContent = input1.value;
+  input1.value = "";
+  }
+});
+
 button2.addEventListener('click', () => {
   secondName.textContent = input2.value;
   input2.value = "";
